@@ -1,0 +1,21 @@
+pkgbase = italian-schools-bulk-sender-git
+	pkgdesc = Instantly communicate with all schools in the country
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.r0.g60b0502c39fda411f1871c6e545feda1045c207c
+	pkgrel = 1
+	url = https://github.com/themartiancompany/italian-schools-bulk-sender
+	arch = any
+	groups = hip
+	groups = hip-git
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	makedepends = curl
+	makedepends = jq
+	depends = email-bulk-sender
+	depends = italian-schools-data-fetcher
+	provides = italian-schools-bulk-sender=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1.r0.g60b0502c39fda411f1871c6e545feda1045c207c
+	conflicts = italian-schools-bulk-sender
+	source = italian-schools-bulk-sender.tar.gz::https://github.com/themartiancompany/italian-schools-bulk-sender/archive/refs/heads/master.tar.gz
+	sha256sums = SKIP
+
+pkgname = italian-schools-bulk-sender-git
